@@ -11,8 +11,8 @@ A simple public website for Syzygy
 1. Don't commit directly to `main`. Instead, create a new branch for your changes.
 1. Make your changes and commit them to your branch.
 1. Open a pull request to merge your changes into the `main` branch.
-1. GitHub will automatically create a preview of the proposed changes (look for a comment from "github-actions" with a link like <https://syzygyco-op.github.io/pr-preview/pr-sth>). Check that out to make sure it looks good.
-1. Once your pull request is approved, it will be merged into the `main` branch.
+1. GitHub will automatically create a preview of the proposed changes (look for a comment from "github-actions" with a link like <https://syzygyco-op.github.io/pr-preview/pr-sth>).
+1. Once you're sure your finished, merge your branch into the `main` branch.
 1. Your changes will be automatically deployed to the live site in a few minutes.
 
 ## Help!
