@@ -24,4 +24,4 @@ Keep it simple. Use the simplest tools available. Use the simplest code possible
 
 Keep it to one page that prominently displays the information we most want visitors to see above the fold, at a glance. Link to or embed other websites liberally. Having multiple pages creates the need for intra-site navigation, which creates the need for a technically more complex codebase.
 
-Seize on the unique the expressive potential of a website where we, the creators, are in full control. Let the website be a canvas for our creativity. Use the website to showcase our work, our values, and our community. Use the website to tell our story. Use the website to invite others to join us in our mission.
+Seize on the unique expressive potential of a website where we, the creators, are in full control. Let the website be a canvas for our creativity. Use the website to showcase our work, our values, and our community. Use the website to tell our story. Use the website to invite others to join us in our mission.
