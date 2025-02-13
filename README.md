@@ -23,7 +23,7 @@ It may be helpful to know that most web browsers offer you the ability to inspec
 
 https://github.com/user-attachments/assets/93bbe61b-dd36-4db7-941f-7e1972d64d9e
 
-For anyone who's interested, the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) is a great authoritative source for educational materials on web development.
+For anyone who's interested, the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) is a great authoritative source for educational materials on web development. On the other hand, you don't necessarily need to know very much to competently edit HTML. [The section on HTML below](/#a-bit-of-html) might help. 
 
 ## Philosophy
 
@@ -44,3 +44,35 @@ If we're going to have a website where we have full control over the HTML, CSS, 
 we could, in addition to the landing page, create a point-and-click skueomorphic multimedia experience that offers a whimsical alternative to the straight-laced landing page.
 
 Let the website be a canvas for our creativity. Use the website to showcase our work, values, culture and community.
+
+## A bit of HTML
+
+```html
+<!-- I am an HTML comment. I have no effect on anything except you, dear reader. Or so I hope. -->
+
+<h1 id="the-header">I am an H1 (level 1 header) element.</h1>
+<!--
+  Replace the 1 in "h1" with any number between 2-6 to create a smaller, lower-level header.
+  Note that there is an opening and closing tag with the same name inside, that is, "h1".
+
+  Note that this H1 element has an "id" attribute.
+-->
+
+<a href="example.com">I am a link to another website (example.com)</a>
+
+<!--
+  Click the link below and the page will scroll if necessary to show the above header.
+  This is because a link is established via the "href" and "id" attributes. Note the
+  pound sign (#) in the href attribute. 
+-->
+<a href="#the-header">I am a link to the header above.</a>
+
+<!--
+  Below is an embedded image. A very cute one, judging by my 'src' attribute!
+  Note that there's no closing img tag (</img>)!
+-->
+<img
+  src="cats.gif"
+  alt="This text will be shown while that image is loading, read by screen readers, and shown in a tooltip."
+>
+```
