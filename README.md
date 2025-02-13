@@ -48,7 +48,7 @@ Let the website be a canvas for our creativity. Use the website to showcase our 
 ## A bit of HTML
 
 ```html
-<!-- I am an HTML comment. I have no effect on anything except you, dear reader. Or so I hope. -->
+<!-- I am an HTML comment. My only purpose in life is to help you, dear reader. -->
 
 <h1 id="the-header">I am an H1 (level 1 header) element.</h1>
 <!--
