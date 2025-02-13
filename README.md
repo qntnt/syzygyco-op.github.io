@@ -21,8 +21,20 @@ Feel free to ask for help the #website channel on Discord.
 
 ## Philosophy
 
-Keep it simple. Use the simplest tools available. Use the simplest code possible. Use the simplest design possible. Use the simplest hosting possible. Use the simplest deployment possible.
+### Technological primitivism.
 
-Keep it to one page that prominently displays the information we most want visitors to see above the fold, at a glance. Link to or embed other websites liberally. Having multiple pages creates the need for intra-site navigation, which creates the need for a technically more complex codebase.
+Keep it as simple as possible, but not simpler. Use the simplest tools, code, that meet our needs.
 
-Seize on the unique expressive potential of a website where we, the creators, are in full control. Let the website be a canvas for our creativity. Use the website to showcase our work, our values, and our community. Use the website to tell our story. Use the website to invite others to join us in our mission.
+Note that having multiple HTML files may create the need for intra-site navigation, which may drive technical complexity. All we really need is a landing page that prominently displays the information we most want visitors to see above the fold, at a glance. One this page, we can link to or embed other websites that represent more detailed information about specific domains, and which may offer no-code solutions for creating and maintaining them. For example:
+- Embed our public Google calendar to show an up-to-date view of our upcoming events.
+- Link to our Discord server so people can chat with us.
+- Link to pages in our Notion workspace to showcase our projects.
+
+We can head off the need for multiple HTML files by having multiple sections with menu links implemented [by linking to fragments within the landing page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href), as long as we're mindful about page load times.
+
+### Break the mold.
+
+If we're going to have a website where we have full control over the HTML, CSS, and JavaScript, we might as well take advantage of the expressive potential that offers us. For example, despite the note about multiple pages above,
+we could, in addition to the landing page, create a point-and-click skueomorphic multimedia experience that offers a whimsical alternative to the straight-laced landing page.
+
+Let the website be a canvas for our creativity. Use the website to showcase our work, values, culture and community.
