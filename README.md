@@ -37,6 +37,8 @@ Note that having multiple HTML files may create the need for intra-site navigati
 
 We can head off the need for multiple HTML files by having multiple sections with menu links implemented [by linking to fragments within the landing page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href), as long as we're mindful about page load times.
 
+For anyone who's interested, the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) is a great authoritative source for educational materials on web development.
+
 ### Break the mold.
 
 If we're going to have a website where we have full control over the HTML, CSS, and JavaScript, we might as well take advantage of the expressive potential that offers us. For example, despite the note about multiple pages above,
