@@ -31,7 +31,7 @@ For anyone who's interested, the [Mozilla Developer Network](https://developer.m
 
 Keep it as simple as possible, but not simpler. Use the simplest tools, code, that meet our needs.
 
-Note that having multiple HTML files may create the need for intra-site navigation, which may drive technical complexity. All we really need is a landing page that prominently displays the information we most want visitors to see above the fold, at a glance. One this page, we can link to or embed other websites that represent more detailed information about specific domains, and which may offer no-code solutions for creating and maintaining them. For example:
+Note that having multiple HTML files may create the need for intra-site navigation, which may drive technical complexity. All we really need is a landing page that prominently displays the information we most want visitors to see above the fold, at a glance. On this page, we can link to or embed other websites that represent more detailed information about specific domains, and which may offer no-code solutions for creating and maintaining them. For example:
 - Embed our public Google calendar to show an up-to-date view of our upcoming events.
 - Link to our Discord server so people can chat with us.
 - Link to pages in our Notion workspace to showcase our projects.
@@ -41,7 +41,7 @@ We can head off the need for multiple HTML files by having multiple sections wit
 ### Idiosyncrasy
 
 Go ahead, be weird. Break the mold. If we're going to have a website where we have full control over the HTML, CSS, and JavaScript, we might as well take advantage of the expressive potential that offers us. For example, despite the note about multiple pages above,
-we could, in addition to the landing page, create a point-and-click skueomorphic multimedia experience that offers a whimsical alternative to the straight-laced landing page.
+we could, in addition to the landing page, create a point-and-click skueomorphic multimedia experience that offers a whimsical alternative to a (slightly more) conventional landing page.
 
 Let the website be a canvas for our creativity. Use the website to showcase our work, values, culture and community.
 
@@ -53,6 +53,7 @@ Let the website be a canvas for our creativity. Use the website to showcase our 
 <h1 id="the-header">I am an H1 (level 1 header) element.</h1>
 <!--
   Replace the 1 in "h1" with any number between 2-6 to create a smaller, lower-level header.
+
   Note that there is an opening and closing tag with the same name inside, that is, "h1".
 
   Note that this H1 element has an "id" attribute.
