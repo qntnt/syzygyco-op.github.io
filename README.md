@@ -21,7 +21,8 @@ Feel free to ask for help the #website channel on Discord.
 
 It may be helpful to know that most web browsers offer you the ability to inspect the HTML elements of a page (and a lot of other handy diagnostic tools). If you're having difficulty with the code itself, this can be like having super powers. There's no harm that can be done by poking around in there. Any changes you make are only made to your own copy of the web page, and will be discarded, e.g. when you close the web browser or refresh the page.
 
-![Screen caputure showing how to inspect element](./how-to-inspect-element.mp4)
+https://github.com/user-attachments/assets/93bbe61b-dd36-4db7-941f-7e1972d64d9e
+
 
 ## Philosophy
 
