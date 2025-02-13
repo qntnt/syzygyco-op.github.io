@@ -8,7 +8,7 @@ A simple public website for Syzygy
 1. Create a GitHub account if you don't have one already.
 1. Ask to join the syzygyco-op organization on GitHub.
 1. From here, you can either clone this repository to your local machine or edit it directly in the GitHub web interface.
-1. Don't commit directly to `main`. Instead, create a new branch for your changes.
+1. Don't commit directly to `main`. Instead, create a new branch for your changes. Unless you're just editing this README or really know what you're doing ;)
 1. Make your changes and commit them to your branch.
 1. Open a pull request to merge your changes into the `main` branch.
 1. GitHub will automatically create a preview of the proposed changes (look for a comment from "github-actions" with a link like <https://syzygyco-op.github.io/pr-preview/pr-sth>).
