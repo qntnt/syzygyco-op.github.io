@@ -1,4 +1,4 @@
-# syzygyco-op.github.io
+<h1><a href="https://syzygyco-op.github.io">syzygyco-op.github.io</a></h1>
 
 A simple public website for Syzygy.
 
