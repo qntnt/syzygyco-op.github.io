@@ -1,6 +1,8 @@
 # syzygyco-op.github.io
 
-A simple public website for Syzygy
+A simple public website for Syzygy.
+
+Also check out the [Requirements/Design doc](https://docs.google.com/document/d/1SrBFR4WLUi_WnOKULPDLxn6hugp6PHzSxQQ-rajLfVw).
 
 ## How do I edit this site?
 
