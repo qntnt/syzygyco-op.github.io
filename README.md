@@ -76,5 +76,8 @@ Let the website be a canvas for our creativity. Use the website to showcase our 
   alt="This text will be shown while that image is loading, read by screen readers, and shown in a tooltip."
 >
 
-<div>I am a generic container for text and <b>any other elements</b>! I'm useful for grouping things together and creating structure.</div>
+<div>
+  I am a generic container for text and <b>any other elements</b>!
+  I'm useful for grouping things together and creating structure.
+</div>
 ```
