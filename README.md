@@ -23,6 +23,7 @@ It may be helpful to know that most web browsers offer you the ability to inspec
 
 https://github.com/user-attachments/assets/93bbe61b-dd36-4db7-941f-7e1972d64d9e
 
+For anyone who's interested, the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) is a great authoritative source for educational materials on web development.
 
 ## Philosophy
 
@@ -36,8 +37,6 @@ Note that having multiple HTML files may create the need for intra-site navigati
 - Link to pages in our Notion workspace to showcase our projects.
 
 We can head off the need for multiple HTML files by having multiple sections with menu links implemented [by linking to fragments within the landing page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href), as long as we're mindful about page load times.
-
-For anyone who's interested, the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) is a great authoritative source for educational materials on web development.
 
 ### Break the mold.
 
