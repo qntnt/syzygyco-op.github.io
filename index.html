@@ -35,8 +35,43 @@
     <meta name="twitter:image" content="https://syzygyco-op.github.io/show.gif">
     <meta name="twitter:card" content="summary_large_image">
 
-    <style>
-      /* Put your CSS here */
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      /*
+        This is element contains CSS which is a language used to define the (mostly visual) "style" HTML elements.
+        CSS allows us to change the color, size, and position and many other properties of HTML elements by pair
+        "selectors" with rule sets. Selectors specify which HTML elements the rules apply to, and rule sets specify
+        which properties to change and what values to change them to.
+
+        Since we're using a CSS framework called Tailwind, we can also use "directives" (lines starting with '@')
+        and pre-defined classes to save ourselves a lot of time.
+       */
+
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      @layer base {
+        h1 {
+          @apply text-6xl;
+        }
+        h2 {
+          @apply text-5xl;
+        }
+        h3 {
+          @apply text-4xl;
+        }
+        h4 {
+          @apply text-3xl;
+        }
+        h5 {
+          @apply text-2xl;
+        }
+        h6 {
+          @apply text-xl;
+        }
+      }
     </style>
   </head>
   <body>
