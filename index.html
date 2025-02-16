@@ -85,7 +85,8 @@
 
         main {
           margin: 0 auto;
-          max-width: 40rem;
+          @apply px-2;
+          max-width: 41rem;
           overflow: wrap;
         }
 
@@ -136,6 +137,12 @@
         /* make the image fill the width of the container */
         img {
           @apply w-full;
+        }
+      }
+
+      @media (max-width: 42rem) {
+        [x-member], [x-event] {
+          width: 100%;
         }
       }
     </style>
