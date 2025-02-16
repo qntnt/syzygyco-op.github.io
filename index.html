@@ -85,7 +85,8 @@
 
         main {
           margin: 0 auto;
-          width: 40rem;
+          max-width: 40rem;
+          overflow: wrap;
         }
 
         p,
@@ -242,7 +243,7 @@
     </main>
 
     <script type="text/javascript">
-      /* Make sure the google calendar is always an appropriate size no matter what the screen size is
+      /* Make sure the google calendar is always an appropriate size no matter what the screen size is */
       setTimeout(() => {
         setGCalWidth();
       }, 500);
@@ -260,9 +261,7 @@
         const parentWidth = iframe.parentElement.clientWidth;
         iframe.style.width = `${parentWidth}px`;
         iframe.style.height = `${parentWidth * 0.75}px`;
-        console.log("resized iframe to", parentWidth, "x", parentWidth * 0.75);
       }
-      */
     </script>
   </body>
 </html>
