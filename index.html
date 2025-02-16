@@ -91,8 +91,7 @@
 
       [x-event] {
         display: block;
-        max-width: 20rem;
-        max-height: 100%;
+        width: 20rem;
 
         background-color: var(--color-gray-700);
         color: var(--color-gray-200);
@@ -111,6 +110,22 @@
           @apply text-xl;
         }
       }
+
+      [x-member] {
+        display: block;
+        width: 20rem;
+
+        background-color: var(--color-gray-700);
+        color: var(--color-gray-200);
+
+        @apply p-4;
+        text-align: center;
+
+        /* make the image fill the width of the container */
+        img {
+          @apply w-full;
+        }
+      }
     </style>
   </head>
   <body>
@@ -122,6 +137,7 @@
     <nav class="sticky top-0 w-full py-2 mb-2 bg-gray-700 text-gray-200 font-bold">
       <ul class="flex flex-row flex-wrap justify-evenly">
         <li><a href="/#about">About</a></li>
+        <li><a href="/#members">Members</a></li>
         <li><a href="/#contact">Contact</a></li>
         <li><a href="/#events">Events</a></li>
       </ul>
@@ -134,6 +150,29 @@
 
         <p>Our mission is to create a space where people from all backgrounds can inspire each other, collaborate, and keep the spirit of all that is weird and creative alive in SF.</p>
       </section>
+
+      <section id="members">
+        <div class="flex flex-row flex-wrap">
+          <div x-member>
+            <img src="images/nobel.webp" alt="Nobel">
+            <div>
+              <h3>Nobel</h3>
+              <p>&ldquo;real&rdquo; &ldquo;human&rdquo; &ldquo;person&rdquo;</p>
+            </div>
+          </div>
+
+          <div x-member>
+            <img src="images/kayla.webp" alt="Kayla">
+            <div>
+              <h3>Kayla</h3>
+              <p>Spatial Designer, Surreal Artist, Relapsed Weeabu</p>
+            </div>
+          </div>
+        </div>
+
+        <p>&hellip; <a href="/#contact">and you?</a></p>
+      </section>
+
       <section id="events">
         <h2>Upcoming Events</h2>
 
@@ -173,14 +212,17 @@
       <section id="contact">
         <h2>Contact</h2>
 
-        <p>We are located at:</p>
+        <h3>We are located at</h3>
 
         <p>
         395 South Van Ness Ave<br>
 
-        San Francisco, CA 94103
+        San Francisco, CA 94103.<br>
         </p>
 
+        <p>Open during public events and by appointment.</p>
+
+        <h3>Online presence</h3>
         <p>Chat us up on <a href="https://discord.gg/8kK2d7Mb">Discord</a> or <a href="mailto:someone@syzygysf.com">write us weird emails</a>!</p>
 
       </section>
