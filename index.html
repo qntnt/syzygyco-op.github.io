@@ -87,6 +87,17 @@
           margin: 0 auto;
           width: 40rem;
         }
+
+        p,
+        address {
+          @apply my-2;
+        }
+
+        address {
+          @apply not-italic;
+          @apply p-2;
+          background-color: var(--color-gray-200);
+        }
       }
 
       [x-event] {
@@ -216,13 +227,12 @@
 
         <h3>We are located at</h3>
 
-        <p>
-        395 South Van Ness Ave<br>
+        <address>
+          395 South Van Ness Ave<br>
+          San Francisco, CA 94103
+        </address>
 
-        San Francisco, CA 94103.<br>
-        </p>
-
-        <p>Open during public events and by appointment.</p>
+        <p>And open during public events and by appointment.</p>
 
         <h3>Online presence</h3>
         <p>Chat us up on <a href="https://discord.gg/8kK2d7Mb">Discord</a> or <a href="mailto:someone@syzygysf.com">write us weird emails</a>!</p>
