@@ -72,6 +72,29 @@
           @apply text-xl;
         }
       }
+
+      [x-event] {
+        display: block;
+        max-width: 20rem;
+        max-height: 100%;
+
+        background-color: var(--color-gray-700);
+        color: var(--color-gray-200);
+
+        /* make the image fill the width of the container */
+        img {
+          @apply w-full;
+        }
+
+        div {
+          @apply p-4;
+          text-align: center;
+        }
+
+        date {
+          @apply text-xl;
+        }
+      }
     </style>
   </head>
   <body>
@@ -81,16 +104,36 @@
     -->
     <h1>Syzygy Artist Co-Op</h1>
 
-    <h2>Upcoming Events</h2>
+    <article>
+      <h2>Upcoming Events</h2>
 
-    <article x-is-event x-is-recurring>
-      <h3>Dicey Dana's One-Shot Social</h3>
-      <date>Sun, Feb 16</date>
-      <img src="images/one-shot-social.webp" alt="Wizards!">
-      <details>
-        <summary>More Info</summary>
-        Indie RPGs every third Sunday!
-      </details>
+      <div class="flex flex-row flex-wrap">
+        <div x-event>
+          <img src="images/one-shot-social.webp" alt="Wizards!">
+          <div>
+            <h3>Dicey Dana's One-Shot Social</h3>
+            <date>Every 3rd Sunday</date>
+            <details>
+              <summary>Roll for details</summary>
+              Indie RPGs ayy!
+            </details>
+          </div>
+        </div>
+
+        <div x-event>
+          <img src="images/jams.webp" alt="Musicians jamming out">
+          <div>
+            <h3>Open jam sessions</h3>
+            <date>Every Monday, 7-10pm</date>
+            <details>
+              <summary>a 1 and a 2&hellip;</summary>
+              Come jam with us! Free, RSVP on Discord ahead of time.
+            </details>
+          </div>
+        </div>
+      </div>
+
+      </div>
     </article>
 
     <p>Check our Google calendar for the most up-to-date information about upcoming events.</p>
