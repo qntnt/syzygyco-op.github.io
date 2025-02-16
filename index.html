@@ -71,6 +71,11 @@
         h6 {
           @apply text-xl;
         }
+
+        a {
+          text-decoration: underline;
+          text-decoration-color: var(--color-gray-500);
+        }
       }
 
       [x-event] {
@@ -102,43 +107,73 @@
       The BODY element contains the content of the page that will be rendered to the user.
       See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
     -->
-    <h1>Syzygy Artist Co-Op</h1>
 
-    <article>
-      <h2>Upcoming Events</h2>
+    <nav class="sticky top-0 w-full py-2 mb-2 bg-gray-700 text-gray-200 font-bold">
+      <ul class="flex flex-row flex-wrap justify-evenly">
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#contact">Contact</a></li>
+        <li><a href="/#events">Events</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Syzygy Artist Co-Op</h1>
+      <section id="about">
+        <h2>About</h2>
+        <p>Syzygy SF is a group of artists, musicians, makers, programmers and more, who are building a creative community in San Francisco's Mission district.</p>
 
-      <div class="flex flex-row flex-wrap">
-        <div x-event>
-          <img src="images/one-shot-social.webp" alt="Wizards!">
-          <div>
-            <h3>Dicey Dana's One-Shot Social</h3>
-            <date>Every 3rd Sunday</date>
-            <details>
-              <summary>Roll for details</summary>
-              Indie RPGs ayy!
-            </details>
+        <p>Our mission is to create a space where people from all backgrounds can inspire each other, collaborate, and keep the spirit of all that is weird and creative alive in SF.</p>
+      </section>
+      <section id="events">
+        <h2>Upcoming Events</h2>
+
+        <div class="flex flex-row flex-wrap">
+          <div x-event>
+            <img src="images/one-shot-social.webp" alt="Wizards!">
+            <div>
+              <h3>Dicey Dana's One-Shot Social</h3>
+              <date>Every 3rd Sunday</date>
+              <details>
+                <summary>Roll for details</summary>
+                Indie RPGs ayy!
+              </details>
+            </div>
+          </div>
+
+          <div x-event>
+            <img src="images/jams.webp" alt="Musicians jamming out">
+            <div>
+              <h3>Open jam sessions</h3>
+              <date>Every Monday, 7-10pm</date>
+              <details>
+                <summary>a 1 and a 2&hellip;</summary>
+                Come jam with us! Free, RSVP on Discord ahead of time.
+              </details>
+            </div>
           </div>
         </div>
 
-        <div x-event>
-          <img src="images/jams.webp" alt="Musicians jamming out">
-          <div>
-            <h3>Open jam sessions</h3>
-            <date>Every Monday, 7-10pm</date>
-            <details>
-              <summary>a 1 and a 2&hellip;</summary>
-              Come jam with us! Free, RSVP on Discord ahead of time.
-            </details>
-          </div>
-        </div>
-      </div>
+        <p>Check our Google calendar for the most up-to-date information about upcoming events. </p>
+        <!-- Embed our Google Calendar -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=ab5594c927f49b0fdbac6df5105baab13fa8c85a557455199d4ffe8a1e3d2727%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </section>
 
-      </div>
-    </article>
+      <section id="contact">
+        <h2>Contact</h2>
 
-    <p>Check our Google calendar for the most up-to-date information about upcoming events.</p>
-    <!-- Embed our Google Calendar -->
-    <iframe src="https://calendar.google.com/calendar/embed?src=ab5594c927f49b0fdbac6df5105baab13fa8c85a557455199d4ffe8a1e3d2727%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <p>We are located at:</p>
+
+        <p>
+        395 South Van Ness Ave<br>
+
+        San Francisco, CA 94103
+        </p>
+
+        <p>Chat us up on <a href="https://discord.gg/8kK2d7Mb">Discord</a> or <a href="mailto:someone@syzygysf.com">write us weird emails</a>!</p>
+
+      </section>
+
+    </main>
+
     <script type="text/javascript">
       /* Put your JavaScript here */
     </script>
