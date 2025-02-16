@@ -54,27 +54,38 @@
 
       @layer base {
         h1 {
+          @apply my-6;
           @apply text-6xl;
         }
         h2 {
+          @apply my-5;
           @apply text-5xl;
         }
         h3 {
+          @apply my-4;
           @apply text-4xl;
         }
         h4 {
+          @apply my-3;
           @apply text-3xl;
         }
         h5 {
+          @apply my-2;
           @apply text-2xl;
         }
         h6 {
+          @apply my-1;
           @apply text-xl;
         }
 
         a {
           text-decoration: underline;
           text-decoration-color: var(--color-gray-500);
+        }
+
+        main {
+          margin: 0 auto;
+          width: 40rem;
         }
       }
 
@@ -177,7 +188,7 @@
     </main>
 
     <script type="text/javascript">
-      /* Make sure the google calendar is always an appropriate size no matter what the screen size is */
+      /* Make sure the google calendar is always an appropriate size no matter what the screen size is
       setTimeout(() => {
         setGCalWidth();
       }, 500);
@@ -195,7 +206,9 @@
         const parentWidth = iframe.parentElement.clientWidth;
         iframe.style.width = `${parentWidth}px`;
         iframe.style.height = `${parentWidth * 0.75}px`;
+        console.log("resized iframe to", parentWidth, "x", parentWidth * 0.75);
       }
+      */
     </script>
   </body>
 </html>
