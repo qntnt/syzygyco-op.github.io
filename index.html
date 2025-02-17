@@ -47,6 +47,9 @@
         Since we're using a CSS framework called Tailwind, we can also use "directives" (lines starting with '@')
         and pre-defined classes to save ourselves a lot of time.
        */
+      :root {
+        --card-width: 20rem;
+      }
 
       @tailwind base;
       @tailwind components;
@@ -86,8 +89,9 @@
         main {
           margin: 0 auto;
           @apply px-2;
+          max-width: calc(var(--card-width) * 2 + 1);
+          /* I don't know why the above isn't working */
           max-width: 41rem;
-          overflow: wrap;
         }
 
         p,
@@ -102,31 +106,9 @@
         }
       }
 
-      [x-event] {
+      .syz-card {
         display: block;
-        width: 20rem;
-
-        background-color: var(--color-gray-700);
-        color: var(--color-gray-200);
-
-        /* make the image fill the width of the container */
-        img {
-          @apply w-full;
-        }
-
-        div {
-          @apply p-4;
-          text-align: center;
-        }
-
-        date {
-          @apply text-xl;
-        }
-      }
-
-      [x-member] {
-        display: block;
-        width: 20rem;
+        width: var(--card-width);
 
         background-color: var(--color-gray-700);
         color: var(--color-gray-200);
@@ -140,8 +122,9 @@
         }
       }
 
-      @media (max-width: 42rem) {
-        [x-member], [x-event] {
+
+      @media (max-width: 42rem /* calc(2 * var(--card-width)) but that's not working here either */) {
+        .syz-card {
           width: 100%;
         }
       }
@@ -175,19 +158,17 @@
         <h2>Upcoming Events</h2>
 
         <div class="flex flex-row flex-wrap">
-          <div x-event>
+          <div class="syz-card">
             <img src="images/one-shot-social.webp" alt="Wizards!">
-            <div>
-              <h3>Dicey Dana's One-Shot Social</h3>
-              <date>Every 3rd Sunday</date>
-              <details>
-                <summary>Roll for details</summary>
-                Indie RPGs ayy!
-              </details>
-            </div>
+            <h3>Dicey Dana's One-Shot Social</h3>
+            <date>Every 3rd Sunday</date>
+            <details>
+              <summary>Roll for details</summary>
+              Indie RPGs ayy!
+            </details>
           </div>
 
-          <div x-event>
+          <div class="syz-card">
             <img src="images/jams.webp" alt="Musicians jamming out">
             <div>
               <h3>Open jam sessions</h3>
@@ -210,7 +191,7 @@
       <section id="members">
         <h2>Members</h2>
         <div class="flex flex-row flex-wrap">
-          <div x-member>
+          <div class="syz-card">
             <img src="images/nobel.webp" alt="Nobel">
             <div>
               <h3>Nobel</h3>
@@ -218,7 +199,7 @@
             </div>
           </div>
 
-          <div x-member>
+          <div class="syz-card">
             <img src="images/kayla.webp" alt="Kayla">
             <div>
               <h3>Kayla</h3>
