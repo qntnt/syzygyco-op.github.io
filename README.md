@@ -1,3 +1,10 @@
+# Syzygy Co-op Site
+
+Add members in `src/members/`. Make sure to add a photo AND a markdown file with their name, relative link to the photo, and optionally a description in the body.
+
+
+
+
 # Astro Starter Kit: Basics
 
 ```sh
