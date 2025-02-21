@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @plugin '@tailwindcss/typography';
 
 
@@ -64,6 +65,28 @@
         font-family: "Zain", serif;
         font-weight: 400;
         font-style: italic;
+    }
+
+    .honk-font {
+        font-family: "Honk", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+    }
+
+    .oi-regular {
+        font-family: "Oi", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .rubik-moonrocks-regular {
+        font-family: "Rubik Moonrocks", serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     /* endregion Fonts */

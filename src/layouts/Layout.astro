@@ -16,13 +16,15 @@ import "../styles/global.css";
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Rubik+Storm&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Honk&family=Oi&family=Rubik+Moonrocks&family=Rubik+Storm&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
 			rel="stylesheet"
 		/>
 		<!--ENDREGION Google Fonts -->
 	</head>
 	<body class="bg-yellow-100">
-		<slot name="nav" />
+		<div class="sticky top-0">
+			<slot name="nav" />
+		</div>
 		<slot />
 		<Footer />
 	</body>
