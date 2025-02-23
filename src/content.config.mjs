@@ -6,7 +6,7 @@ import { glob, file, folder } from 'astro/loaders';
 
 // 3. Define your collection(s)
 const members = defineCollection({
-    loader: glob({ pattern: "**/*.md", base: "./src/members" }),
+    loader: glob({ pattern: "**/*.md", base: "./content/members" }),
     schema: ({image}) => z.object({
         name: z.string(),
         photo: image(),
